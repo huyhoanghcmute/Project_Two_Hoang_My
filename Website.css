@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: #FAF3DC;
+}
+.nen
+{
+    width: 100%;
+    height: 665px;
+    background-image: url(./img/Image2.png);
+    background-size:cover;
+    background-position: center;
+}
+
+.header
+{
+    width: 100%;
+    height: 46px;
+    background-color: #FFE587;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.back_btn
+{
+    position:absolute;
+    left: 0;
+}
+
+/* ------------------------------content------------------------------- */
+.den
+{
+    display: flex;
+    position: absolute;
+    left: 420px;
+    height: 225px;
+    
+}
+.den1
+{
+    margin-right: 328px;
+}
+
+#btnOnId_01 , #btnOnId_02
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+}
+#btnOnId_01:hover
+{
+    background-color: rgb(106, 255, 0);
+}
+#btnOnId_02:hover
+{
+    background-color: rgb(106, 255, 0);
+}
+
+#btnOffId_01 , #btnOffId_02
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+}
+#btnOffId_01:hover
+{
+    background-color: rgb(255, 52, 52);
+}
+#btnOffId_02:hover
+{
+    background-color: rgb(255, 52, 52);
+}
+
+/* --------------------------------------------------- */
+.button1
+{
+    position: absolute;
+    left: 38px;   
+    bottom: 0; 
+}
+.button2
+{
+    position: absolute;
+    left: 546px;   
+    bottom: 0; 
+}
+
+.propeller
+{
+    position:absolute;
+    top: 20px;
+    left: 59px;
+
+    animation: spin 0s linear infinite; 
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.fan-level
+{
+    /* margin-top: 36px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 110px 0 20px;
+    padding-right: 120px;
+}
+
+.quat
+{
+    position: absolute;
+    bottom: 60px;
+    margin-left: 370px;
+}
+/* ---------------------------------circle----------------------------------- */
+
+.skill
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+.outer
+{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    padding: 7.5px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+
+    flex-direction: column;
+}
+
+#number
+{
+    font-weight: 600;
+    color: #555;
+
+    font-size: 27px;
+    position: absolute;
+    bottom: 20px;
+}
+circle
+{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 8px;
+    /* stroke-dasharray: 335;
+    stroke-dashoffset: 335;
+    animation: anim 1s linear forwards; */
+}
+svg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* @keyframes anim
+{
+    100%{
+        stroke-dashoffset: 251.25;
+    }
+} */
+
+
+p
+{
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 7px;
+}
+
+.temp_cls
+{
+    position: absolute;
+    top: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+.skill2
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+
+    margin-top: 95px;
+}
+.outer2
+{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    padding: 7.5px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner2
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+
+    flex-direction: column;
+}
+
+#number2
+{
+    font-weight: 600;
+    color: #555;
+
+    font-size: 27px;
+    position: absolute;
+    bottom: 20px;
+}
+.circle2
+{
+    fill: none;
+    stroke: url(#GradientColor2);
+    stroke-width: 8px;
+    /* stroke-dasharray: 335;
+    stroke-dashoffset: 335;
+    animation: anim2 2s linear forwards; */
+}
+.svg2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* @keyframes anim2
+{
+    100%{
+        stroke-dashoffset: 67;
+    }
+}  */
+
+.humi_cls
+{
+    position: absolute;
+    top: 15px;
+}  
+
+/* ---------------------------------footer--------------------------------- */
+.footer
+{
+    width: 100%;
+    height: 57px;
+    background-color: #FFE587;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    
+    padding: 10px 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.name2
+{
+    margin-top: 10px;
+}

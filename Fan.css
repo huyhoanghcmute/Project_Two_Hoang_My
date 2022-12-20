@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    width: 375px;
+    height: 667px;
+    margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nen
+{
+    width: 375px;
+    height: 667px;
+    
+    background-color: #F0F0F0;
+    border-radius: 20px;
+
+}
+
+.head
+{
+    width: 382px;
+    height: 23px;
+    font: Poppins;
+    font-weight: 400;
+    Size: 12px;
+    line-height: 18px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 0 10px;
+}
+.head-icon
+{
+    margin-left: 15px;
+}
+
+h1
+{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    text-align: center;
+    margin: 26px 0 10px 0;
+}
+
+.set
+{
+    height: 32px;
+    margin-left: 255px;
+    align-items: center;
+}
+.setting1
+{
+    margin-right: 24px;
+}
+.setting2
+{
+    position:absolute;
+    top: 138px;
+}
+
+.quat
+{
+    width: 348px;
+    height: 398px;
+    margin-left: 13px;
+    padding-top: 20px;
+
+    background: #F7F7F7;
+    border-radius: 18.5px;
+    box-sizing: border-box;
+}
+.box
+{
+    margin-left: 54px;
+    margin-top: 15px;
+}
+.propeller
+{
+    margin-left: 90px;
+    margin-bottom: 200px;
+    position:absolute;
+    top: 245px;
+
+    animation: spin 0s linear infinite; 
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fan-level
+{
+    /* margin-top: 36px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 36px 12px 0 12px
+}
+/* ----------------------------------------------------------------------------- */
+
+.tag
+{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tag1
+{
+    margin-right: 20px;
+}
+.tag2
+{
+    margin-right: 10px;
+    color:#000000;
+}
+.tag1 , .tag2 , .tag3
+{
+    margin-left: 25px;
+}
+.tag1 , .tag3
+{
+    color: #757575;
+    text-decoration:none;
+}
+.bottom
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 30px;
+}
+

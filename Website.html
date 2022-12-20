@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Website.css">
+    </head>
+    <body>
+        <div class="nen">
+            <div class="header">
+                <a href="index.html" id="hinh">
+                    <img id="back_id" class="back_btn" src="./img/49.png" alt="Card image" style="width:2.5%">
+                </a> 
+                LIVING ROOM
+            </div>
+
+            <div class="content">
+                <div class="den">
+                    <div class="den1">
+                        <img id="denId_01" class="card-img-top" src="./img/26.png" alt="Card image" style="width: 180px;">
+                        <div class="button1">
+                            <button id="btnOnId_01">ON</button>
+                            <button id="btnOffId_01">OFF</button>
+                        </div>
+                    </div>
+
+                    <div class="den2">
+                        <img id="denId_02" class="card-img-top" src="./img/26.png" alt="Card image" style="width:180px">
+                        <div class="button2">
+                            <button id="btnOnId_02">ON</button>
+                            <button id="btnOffId_02">OFF</button>
+                        </div>
+                    </div>
+                </div>
+<!-- ----------------------------------------------------------------------------- -->
+                <div class="sensor">
+                    <div class="skill">
+                        <div class="outer">
+                            <div class="inner">
+                                <img id="temp_id" class="temp_cls" src="./img/10.png" alt="Card image" style="width:30%">
+                                <p>Temp</p>
+                                <div id="number">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
+                            <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="20%" stop-color="#fb3330" />
+                                <stop offset="100%" stop-color="#fbc130" />
+                                <!-- <stop offset="0%" stop-color="#dcfb30" /> -->
+                                
+                            </linearGradient>
+                            </defs>
+                            <circle id="circle_id" cx="57.5" cy="57.5" r="53.5" stroke-linecap="round" />
+                    </svg>
+
+                    </div>
+
+                    <div class="skill2">
+                        <div class="outer2">
+                            <div class="inner2">
+                                <img id="humi_id" class="humi_cls" src="./img/9.png" alt="Card image" style="width:30%">
+                                <p>Humi</p>
+                                <div id="number2">
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <svg class="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
+                            <defs>
+                                <linearGradient id="GradientColor2">
+                                    <stop offset="0%" stop-color="#77bbff" />
+                                    <stop offset="100%" stop-color="#30fb59" />
+                                </linearGradient>
+                            </defs>
+                            <circle id="circle2" class="circle2" cx="57.5" cy="57.5" r="53.5" stroke-linecap="round" />
+                        </svg>
+
+                    </div>
+                </div>
+   <!-- ----------------------------------------------------------------------------- -->            
+                <div class="quat">
+                    <img id="fan_id" class="fan_cls" src="./img/28.1.png" alt="Card image" style="width:60%">
+
+                    <img class="propeller" id="propeller_id" src="./img/76.png" alt="Card image" style="width: 190px;">
+                    <div class="fan-level">
+                        <img class="onoff-fan" id="power" src="./img/79.png" alt="Card image" style="width: 56px;">
+                        <img class="1" id="button1" src="./img/69.png" alt="Card image" style="width: 56px;">
+                        <img class="2" id="button2" src="./img/71.png" alt="Card image" style="width: 56px;">
+                        <img class="3" id="button3" src="./img/73.png" alt="Card image" style="width: 56px;">
+                    </div>
+                </div>
+                
+            </div>
+
+            <footer class="footer">  
+                <ul class="name1" style="list-style-type:none">
+                    <li>
+                        <a class="ten_1">Nguyen Vuu Huy Hoang 19161110</a>
+                    </li>
+                    <li>
+                        <a class="ten_1">Le Kieu My 19161138</a>
+                    </li>   
+                </ul>
+
+                <ul class="name2" style="list-style-type:none"> 
+                    <li>
+                        <a class="ten_2">GVHD: ThS. Nguyen Ngo Lam</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+        <script src="Website.js"></script>
+    </body>
+</html>

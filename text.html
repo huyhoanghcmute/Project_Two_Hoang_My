@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>text</title>
+        <meta charset="utf-8" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <link rel="stylesheet" href="text.css" />
+    </head>
+    <body>
+        <!-- <div class="nhietdo">
+            <h2>Pure CSS Progress</h2>
+            <p>
+                <span></span>
+                <small>0%</small>
+            </p>
+            <input type="range" value="0" id="max" min="135" max="315">
+        </div>
+
+        <div class="nhietdo">
+            <h2>SVG Icon Progress</h2>
+            <svg>
+                <g fill="none" stroke="#ddd">
+                    <circle cx="150" cy="150" r="125" stroke-width="50" />
+                    <circle cx="150" cy="151" r="125" stroke-width="50" id="circle"/>
+                    <text x="150" y="125" text-anchor="center" stroke="none" fill="#222">0%</text>
+                </g>
+            </svg>
+            <input type="range" value="0" id="han" min="394" max="786">
+        </div> -->
+<!-- ------------------------------------------------------------ -->
+        <!-- <div class="quat">
+            <div class="fan">
+                <img class="box" src="./img/65.png" alt="Card image" style="width: 120px;">
+            </div>
+            <img class="propeller" src="./img/64.png" alt="Card image" style="width: 84px;">
+
+            <div class="fan-level">
+                <img class="onoff-fan" src="./img/67.png" alt="Card image" style="width: 28px;">
+                <img class="1" src="./img/69.png" alt="Card image" style="width: 28px;">
+                <img class="2" src="./img/72.png" alt="Card image" style="width: 28px;">
+                <img class="3" src="./img/73.png" alt="Card image" style="width: 28px;">
+            </div>
+        </div> -->
+        
+<!-- --------------------------------------------------------- -->
+
+        <div class="sensor">
+            <div class="skill">
+                <div class="outer">
+                    <div class="inner">
+                        <img id="temp_id" class="temp_cls" src="./img/10.png" alt="Card image" style="width:30%">
+                        <p>Temp</p>
+                        <div id="number">
+                            
+                        </div>
+                    </div>
+                </div>
+    
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                        <stop offset="20%" stop-color="#fb3330" />
+                        <stop offset="100%" stop-color="#fbc130" />
+                        <!-- <stop offset="0%" stop-color="#dcfb30" /> -->
+                        
+                    </linearGradient>
+                    </defs>
+                    <circle cx="57.5" cy="57.5" r="53.5" stroke-linecap="round" />
+            </svg>
+    
+            </div>
+    
+            <div class="skill2">
+                <div class="outer2">
+                    <div class="inner2">
+                        <img id="humi_id" class="humi_cls" src="./img/9.png" alt="Card image" style="width:30%">
+                        <p>Humi</p>
+                        <div id="number2">
+                            
+                        </div>
+                    </div>
+                </div>
+    
+                <svg class="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="120px" height="120px">
+                    <defs>
+                        <linearGradient id="GradientColor2">
+                            <stop offset="0%" stop-color="#77bbff" />
+                            <stop offset="100%" stop-color="#30fb59" />
+                        </linearGradient>
+                    </defs>
+                    <circle class="circle2" cx="57.5" cy="57.5" r="53.5" stroke-linecap="round" />
+                </svg>
+    
+            </div>
+        </div>
+
+
+        <div class="den">
+            <div class="den1"> 
+                <img id="denId_01_app" class="card-img-top" src="./img/59.png" alt="Card image" style="width: 129px;">
+                <div class="button1">
+                    <button id="btnOnId_01">ON</button>
+                    <button id="btnOffId_01">OFF</button>
+                </div>
+                <div id="text1" class="text1">OFF</div>
+                <div class="Notification1">WARNING</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="den2"> 
+                <img id="denId_02_app" class="card-img-top" src="./img/59.png" alt="Card image" style="width: 129px;">
+                <div class="button2">
+                    <button id="btnOnId_02">ON</button>
+                    <button id="btnOffId_02">OFF</button>
+                </div>
+                <div id="text2" class="text2">OFF</div>
+                <div class="Notification2">WARNING</div>
+            </div>
+        </div>
+
+
+        <script src="text.js"></script>
+    </body>
+</html>
+<!-- <script type="text/javascript">
+    let x = document.getElementById('max');
+    x.oninput =()=>{
+        let y = x.value - 135;
+        let z = y/1.8;
+        document.querySelector('span').style.transform = 'rotate(${x.value}deg)';
+        document.querySelector('small').innerText = z.toFixed(2) + '%';
+    }
+
+    let a = document.getElementById('han');
+    a.oninput =()=>{
+        let b = x.value - 135;
+        let c = y/3.93;
+        document.getElementById('circle').style.strokeDasharray = a.value;
+        document.querySelector('text').innerHTML = c.toFixed(2) + '%';
+    }
+</script> -->
